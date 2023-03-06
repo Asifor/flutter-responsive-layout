@@ -32,7 +32,7 @@ class MyMobileBody extends StatelessWidget {
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
-                    color: Colors.deepPurple[300],
+                    color: Colors.deepPurple[200],
                     height: 120,
                   ),
                 );
