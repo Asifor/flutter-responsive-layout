@@ -10,6 +10,17 @@ class MyMobileBody extends StatelessWidget {
       appBar: AppBar(
         title: Text('M O B I L E'),
       ),
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 250,
+              color: Colors.deepPurple[400],
+            ),
+          )
+        ],
+      ),
     );
   }
 }
