@@ -6,7 +6,7 @@ class MyMobileBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[300],
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text('M O B I L E'),
       ),
@@ -21,7 +21,7 @@ class MyMobileBody extends StatelessWidget {
                 aspectRatio: 16 / 9,
                 child: Container(
                   height: 250,
-                  color: Colors.deepPurple[400],
+                  color: Colors.blue,
                 ),
               ),
             ),
@@ -34,7 +34,7 @@ class MyMobileBody extends StatelessWidget {
                   return Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      color: Colors.deepPurple[200],
+                      color: Colors.blue,
                       height: 120,
                     ),
                   );
