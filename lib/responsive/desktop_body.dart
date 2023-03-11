@@ -25,7 +25,7 @@ class MyDesktopBody extends StatelessWidget {
                       aspectRatio: 16 / 9,
                       child: Container(
                         height: 250,
-                        color: Colors.deepPurple[400],
+                        color: Colors.blue,
                       ),
                     ),
                   ),
@@ -38,7 +38,7 @@ class MyDesktopBody extends StatelessWidget {
                         return Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Container(
-                            color: Colors.deepPurple[200],
+                            color: Colors.blue,
                             height: 120,
                           ),
                         );
