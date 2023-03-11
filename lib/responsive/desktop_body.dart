@@ -54,7 +54,7 @@ class MyDesktopBody extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               child: Container(
                 width: 200,
-                color: Colors.deepPurple[300],
+                color: Colors.deepPurple[400],
               ),
             )
           ],
